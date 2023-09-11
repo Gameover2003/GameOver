@@ -17,17 +17,17 @@ none='\e[0m'
 
 sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config && sed -i 's/#\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config && sed -i 's/#\?Banner .*/Banner \/etc\/ssh\/gcp_404/' /etc/ssh/sshd_config && /etc/init.d/ssh restart;
 echo "
-<h3><font color='red'မ ကို အရမ်းချစ်တယ်
-<h3><font color='magenta'မ သည်သာ အရာရာ
+<h3><font color='red'>မ ကို အရမ်းချစ်တယ်</font></h3>"
+<h3><font color='magenta'>မ သည်သာ အရာရာ</font></h3>"
 
-<h3><font color='green'မ ကိုပဲ ယူမယ်
+<h3><font color='green'>မ ကိုပဲ ယူမယ်</font></h3>"
 
-<h4><font color='cyan'🗿🗿🗿
+<h4><font color='cyan'>🗿🗿🗿</font></h3>"
 
-<h4><font color='blue'❤️
+<h4><font color='blue'>❤️</font></h3>"
 <h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
 </font></h3>" | tee /etc/ssh/gcp_404 >/dev/null
-useradd "MaMa" --shell=/bin/false -M
+useradd "404" --shell=/bin/false -M
 echo "404:404" | chpasswd
 
 echo ""
