@@ -22,9 +22,9 @@ echo "
 
 <h3><font color='green'>မ ကိုပဲ ယူမယ်</font></h3>"
 
-<h4><font color='cyan'>🗿🗿🗿</font></h3>"
+<h4><font color='cyan'>🗿🗿🗿</font></h4>"
 
-<h4><font color='blue'>❤️</font></h3>"
+<h4><font color='blue'>❤️</font></h4>"
 <h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
 </font></h3>" | tee /etc/ssh/gcp_404 >/dev/null
 useradd "404" --shell=/bin/false -M
